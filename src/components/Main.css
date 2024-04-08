@@ -1,0 +1,58 @@
+/* #hero:before {
+  content: "";
+  background: rgba(5, 13, 24, 0.3);
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  height: 100vh;
+  margin-left: 19rem;
+  box-sizing: border-box;
+} */
+#hero:before {
+  content: "";
+  /* background: rgba(5, 13, 24, 0.15); */
+  background: #050d184d;
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  height: 100vh;
+  margin-left: 19rem;
+  box-sizing: border-box;
+}
+@media screen and (max-width: 768px) {
+  #hero:before {
+    margin-left: 0;
+  }
+}
+#hero h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Quicksand";
+  /* , Arial, sans-serif;, monospace, "Raleway", sans-serif */
+}
+
+.section {
+  border-bottom: 1px solid #dee2e6;
+  padding-top: 2rem !important;
+  padding-bottom: 2rem !important;
+  margin-bottom: 1rem;
+  font-family: "Raleway";
+}
+.section h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  font-family: "Raleway";
+}
