@@ -20,7 +20,7 @@ function Section2() {
       id="hero"
       className="section flex  bg-[url('/src/assets/img/hero_bg_3.jpg')] bg-cover bg-center h-screen text-white font-bold box-border"
     >
-      <div className="flex md:flex-row flex-col px-10 z-10 justify-center items-center">
+      <div className="flex md:flex-row flex-col px-10 z-10 justify-center items-center gap-5">
         <div className=" flex flex-col  ">
           <img
             src={Glogowhite}

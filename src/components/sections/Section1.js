@@ -7,7 +7,7 @@ import resume from "../../assets/Gaurav-Patil-Resume.pdf";
 function Section1({ id, bg, text }) {
   const downloadFile = () => {
     const link = document.createElement("a");
-    const data = sample;
+    const data = resume;
 
     link.href = data;
 
