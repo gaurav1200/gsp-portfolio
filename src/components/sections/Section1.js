@@ -3,6 +3,7 @@ import { FaDownload, FaFileDownload } from "react-icons/fa";
 import { CiSaveDown2 } from "react-icons/ci";
 import Glogowhite from "../../assets/img/gwhite.png";
 import sample from "../../assets/sample.pdf";
+import resume from "../../assets/Gaurav-Patil-Resume.pdf";
 function Section1({ id, bg, text }) {
   const downloadFile = () => {
     const link = document.createElement("a");

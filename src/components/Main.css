@@ -13,8 +13,8 @@
 } */
 #hero:before {
   content: "";
-  /* background: rgba(5, 13, 24, 0.15); */
-  background: #050d184d;
+  background: rgba(5, 13, 24, 0.15);
+  /* background: #050d184d; */
   position: absolute;
   bottom: 0;
   top: 0;

@@ -114,9 +114,9 @@ function Home() {
   };
   return (
     <>
-      <span onClick={play} className="absolute top-0 right-0 z-10 text-red-800">
+      {/* <span onClick={play} className="absolute top-0 right-0 z-10 text-red-800">
         {visits}
-      </span>
+      </span> */}
       <Slider ref={(slider) => (sliderRef = slider)} {...settings}>
         {data.map((item) => Section3(item))}
         {/* <div>

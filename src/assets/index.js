@@ -48,7 +48,7 @@ const socialIcons = [
 
   {
     component: FaLink,
-    link: "http://localhost:3000/",
+    link: "https://gsp-portfolio.onrender.com/",
   },
   // {
   //   component: FaTwitter,

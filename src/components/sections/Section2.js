@@ -2,8 +2,19 @@ import React from "react";
 import { FaDownload } from "react-icons/fa";
 import Glogowhite from "../../assets/img/gwhite.png";
 import { CiSaveDown2 } from "react-icons/ci";
-
+import sample from "../../assets/sample.pdf";
+import resume from "../../assets/Gaurav-Patil-Resume.pdf";
 function Section2() {
+  const downloadFile = () => {
+    const link = document.createElement("a");
+    const data = resume;
+
+    link.href = data;
+
+    link.download = "Gaurav_Patil_Resume.pdf";
+    link.click();
+    URL.revokeObjectURL(link.href);
+  };
   return (
     <section
       id="hero"
@@ -24,7 +35,10 @@ function Section2() {
           </p>
         </div>
         <div className="flex flex-col m-8 justify-center items-center">
-          <div className="flex m-8 justify-center items-center hover:bg-[#050d184d] border-[1px]   p-2 font-normal rounded-sm  cursor-pointer gap-2 flex-wrap">
+          <div
+            className="flex m-8 justify-center items-center hover:bg-[#050d184d] border-[1px]   p-2 font-normal rounded-sm  cursor-pointer gap-2 flex-wrap"
+            onClick={downloadFile}
+          >
             Resume
             <a href="#" className=" text-xl  ">
               <CiSaveDown2 />
