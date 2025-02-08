@@ -1,5 +1,7 @@
 import React from "react";
 
+import parse from "html-react-parser";
+
 function Card({ data }) {
   // const data = {
   //   title: "Experience",
@@ -44,7 +46,7 @@ function Card({ data }) {
       </div>
       <ul className="mb-4 pl-4 leading-relaxed md:text-[1rem] text-[.75rem] list-disc">
         {data?.description?.map((point, i) => (
-          <li>{point}</li>
+          <li>{parse(point)}</li>
         ))}
       </ul>
     </div>

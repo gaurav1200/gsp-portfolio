@@ -63,6 +63,12 @@ const socialIcons = [
   //   link: "#",
   // },
 ];
+
+const FE_Images = [javascript, reactjs, redux, html, css, tailwind];
+const BE_Images = [java, spring, springboot, nodejs, javascript];
+const DB_Images = [mongodb, couchbase];
+const version_images = [git, github];
+const other_images = [docker, postman];
 const images = [
   java,
   spring,
@@ -95,4 +101,9 @@ export {
   profile_img,
   images,
   socialIcons,
+  FE_Images,
+  BE_Images,
+  DB_Images,
+  version_images,
+  other_images,
 };

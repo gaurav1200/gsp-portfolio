@@ -2,8 +2,8 @@ import React from "react";
 import { FaDownload } from "react-icons/fa";
 import Glogowhite from "../../assets/img/gwhite.png";
 import { CiSaveDown2 } from "react-icons/ci";
-import sample from "../../assets/sample.pdf";
-import resume from "../../assets/Gaurav-Patil-Resume.pdf";
+
+import resume from "../../assets/GauravPatil_BackEndDev-Resume-3Yrs.pdf";
 function Section2() {
   const downloadFile = () => {
     const link = document.createElement("a");
@@ -11,7 +11,7 @@ function Section2() {
 
     link.href = data;
 
-    link.download = "Gaurav_Patil_Resume.pdf";
+    link.download = "GauravPatil_BackEndDev-Resume-3Yrs.pdf";
     link.click();
     URL.revokeObjectURL(link.href);
   };
